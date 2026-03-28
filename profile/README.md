@@ -1,45 +1,45 @@
 # AI Ideas Lab
 
-`reware-frame` is now positioned as an incubation org for AI product ideas.
+AI product ideas, turned into working prototypes.
 
-We collect promising ideas, turn them into clear specs, ship fast prototypes, and validate whether each concept deserves a standalone product.
+This organization incubates AI-native products from idea selection to spec, prototype, and validation. The goal is simple: test promising ideas fast, keep what works, and spin out what earns it.
 
-## What This Org Does
-
-- Incubates AI-native product ideas
-- Builds small but working prototypes quickly
-- Uses code, demos, and experiments to validate ideas
-- Keeps successful prototypes ready for independent evolution
-
-## Workflow
+## How We Work
 
 1. Start from a strong idea source such as [awesome-ai-ideas](https://github.com/ava-agent/awesome-ai-ideas).
-2. Write a focused product spec for one idea.
-3. Build a prototype with the minimum useful workflow.
-4. Validate with users, usage signals, or internal dogfooding.
-5. Either iterate, archive, or spin the project out.
+2. Narrow the idea into a specific user, workflow, and outcome.
+3. Build the minimum prototype that proves the core loop.
+4. Validate with real usage, dogfooding, or targeted feedback.
+5. Iterate, archive, or graduate the project.
 
-## Repo Structure Direction
+## Start Here
 
-- One repository per prototype project
-- Clear README with problem, user, workflow, and current scope
-- Lightweight docs for decisions, experiments, and validation results
-- Prefer fast iteration over premature platform complexity
+- [`incubator`](https://github.com/ai-ideas-lab/incubator): backlog, selection criteria, incubation status
+- [`proto-template`](https://github.com/ai-ideas-lab/proto-template): starter template for new prototype repositories
+- [`voice-notes-assistant`](https://github.com/ai-ideas-lab/voice-notes-assistant): an active AI prototype already in the org
 
-## Naming Guidance
+## Repo Conventions
 
-- `idea-...` for raw concept repositories
+- `idea-...` for concept repositories
 - `proto-...` for working prototypes
-- `lab-...` for shared tooling or internal experiments
+- `lab-...` for internal tooling and shared experiments
 
-## Current Focus
+Each prototype repo should explain:
 
-The org is shifting from its historical Java middleware identity to an AI product lab. Existing repositories may reflect the old direction while new incubation projects are added.
+- who the user is
+- what problem is being solved
+- what the smallest useful workflow is
+- what has been validated so far
+- what is explicitly out of scope
+
+## Legacy Repositories
+
+This org previously hosted Java middleware and framework learning projects. Those repositories remain part of the org history, but the current direction is AI product incubation.
 
 ## Source Of Ideas
 
-Many upcoming prototype projects in this org will be incubated from:
+Many future prototypes in this org will be incubated from:
 
 - [ava-agent/awesome-ai-ideas](https://github.com/ava-agent/awesome-ai-ideas)
 
-If you want to collaborate, open an issue or start with a prototype PR in the relevant repository.
+If you want to collaborate, start from the incubator repo or open an issue in a relevant prototype repository.
