@@ -1,58 +1,41 @@
-# Contributing to AI Ideas Lab
+# Contributing
 
-Thank you for your interest in contributing to AI Ideas Lab!
+AI Ideas Lab accepts contributions at three levels:
 
-## Ways to Contribute
+## 1. Improve The Idea
 
-### 1. Submit Ideas
+- sharpen the user problem
+- narrow the target workflow
+- clarify why AI is necessary
+- suggest a tighter MVP
 
-Have an AI idea you think is worth exploring? Submit it to our [incubator](https://github.com/ai-ideas-lab/incubator) repository.
+## 2. Improve The Prototype
 
-**Good ideas are:**
-- Easy to explain in one sentence
-- Painful enough that people already try to solve them manually
-- Possible to validate with a narrow prototype
-- Able to reach users without a long enterprise sales cycle
-- Likely to benefit from AI in the product loop
+- fix the core user flow
+- simplify onboarding and setup
+- improve product clarity and demo readiness
+- add validation hooks, instrumentation, or test coverage
 
-### 2. Code Review
+## 3. Improve The Incubation System
 
-Help review pull requests across our repositories. We especially value:
-- Code quality and readability
-- Architecture and design decisions
-- Test coverage
-- Documentation clarity
+- refine templates
+- improve prototype evaluation criteria
+- document better naming and repository conventions
 
-### 3. Build Prototypes
+## Contribution Standard
 
-Pick a high-value idea from the incubator and build a prototype using our [template](https://github.com/ai-ideas-lab/proto-template).
+We prefer changes that make a prototype easier to validate, not just more feature-rich.
 
-### 4. Improve Infrastructure
+Good contributions are:
 
-Help improve our agent collaboration framework, CI/CD, or development tools.
+- easy to evaluate
+- small in scope
+- tied to a concrete user workflow
+- explicit about what signal they are trying to improve
 
-## Development Workflow
+When opening an issue or PR, include:
 
-1. Fork the repository
-2. Create a branch (`git checkout -b feature/my-feature`)
-3. Make your changes
-4. Run tests (if applicable)
-5. Commit with clear messages
-6. Push and open a Pull Request
-
-## Code Style
-
-- Follow existing code conventions in each repository
-- Write meaningful commit messages
-- Add tests for new features
-- Update documentation as needed
-
-## Questions?
-
-Open an issue in the relevant repository or reach out to the maintainers.
-
----
-
-<p align="center">
-  <em>Every contribution counts, no matter how small</em>
-</p>
+- the user or use case
+- the problem being solved
+- the narrowest acceptable scope
+- how success should be judged
