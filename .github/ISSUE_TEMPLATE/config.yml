@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Incubation Workflow
+    url: https://github.com/ai-ideas-lab/incubator
+    about: Start here for idea intake, selection, and prototype status.
